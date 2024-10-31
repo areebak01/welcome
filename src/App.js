@@ -1,24 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import Profilez from './Profilez';
 
 function App() {
+  let a = 5;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <p>The value of a is {a}</p>
+      <p>The value of a is {a}</p>
+
+      <Profilez name = "Yasir Mahmood" detail = "Head of Software Development" designation = "Senior"/>
+      <Profilez name = "Areeba Khaleeq" detail = "Backend Developer" designation = "Junior"/>
+    </>
+    
+    
   );
 }
 

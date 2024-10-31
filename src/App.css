@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.Senior{
+  color: #ff0000;
+}
+
+.Junior{
+  color: #1c7be7;
+}
