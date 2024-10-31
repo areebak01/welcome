@@ -1,9 +1,12 @@
 
-function Profilez(props){
+function Profilez(){
+    
     return(
         <>
-        <h1 class = {props.designation}> {props.name}</h1>
-        <p>{props.detail}</p>
+            <div>
+            <p>Today's Date: {new Date().toDateString()}</p>
+            </div>
+
         </>
     );
 
